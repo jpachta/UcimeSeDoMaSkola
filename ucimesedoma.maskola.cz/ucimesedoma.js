@@ -5,7 +5,7 @@
  * - toggle color of the selected heades and bodies of accordeon 
  * - keep the settigns in locale storage
  * @author Jindrich Pachta
- * @version 1.0
+ * @version 1.2
  * @history 2020-04-07
  */
 
@@ -31,11 +31,11 @@ $(document).ready(function() {
   // Get settings from storage
   var pref_ukoly = JSON.parse(localStorage.getItem("pref_ukoly"));
   if(pref_ukoly == null){
-    pref_ukoly = [];
+    var pref_ukoly = [];
   }
   var pref_tridy = JSON.parse(localStorage.getItem("pref_tridy"));
   if(pref_tridy == null){
-    pref_tridy = [];
+    var pref_tridy = [];
   }
   var pref_barvy = JSON.parse(localStorage.getItem("pref_barvy"));
   if(pref_barvy == null){
@@ -61,7 +61,7 @@ $(document).ready(function() {
   $("div[id^='novContent_']").each(
     function(i, el){
       id_long = $(el).attr("id");
-      ukol_id = id_long.replace('novContent_','');
+      var ukol_id = id_long.replace('novContent_','');
       checkbox_html = checkbox.replace(/UID/g, ukol_id);
       novContent_html = $('#novContent_' + ukol_id).html();
       checkbox_div = $(checkbox_html + novContent_html);
@@ -80,7 +80,8 @@ $(document).ready(function() {
       });
       
       // click on found in storage
-      if(pref_ukoly.indexOf('' + ukol_id) > -1){
+      index = pref_ukoly.indexOf('' + ukol_id);
+      if(index > -1){
         $( "#checkbox_" + ukol_id ).click();
       }
   });
@@ -95,6 +96,7 @@ $(document).ready(function() {
           pref_ukoly.push(id_num);
         }
         localStorage.setItem('pref_ukoly', JSON.stringify(pref_ukoly));
+        console.log(id_num+' '+index+' '+JSON.parse(localStorage.getItem("pref_ukoly")));
         break;
       case 'rem':
         index = pref_ukoly.indexOf(id_num);
