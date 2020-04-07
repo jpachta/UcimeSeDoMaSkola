@@ -1,0 +1,35 @@
+{
+
+  "manifest_version": 2,
+  "name": "Ucime se doma @ maskola.cz",
+  "version": "1.0",
+
+  "description": "Add tracking of homework progress shared with students on maskola.cz",
+
+  "icons": {
+    "48": "icons/mzs-48.png",
+    "96": "icons/mzs-96.png",
+    "128": "icons/mzs-128.png"
+  },
+  
+  "applications": {
+    "gecko": {
+      "id": "UcimeSeDoma@maskola.cz"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.maskola.cz/cz-informace-pro-tridy"
+      ],
+     "js": [
+        "jquery-3.4.1.min.js",
+        "ucimesedoma.js"
+      ]
+    }
+  ],
+  
+  "permissions": ["storage"]
+
+}
