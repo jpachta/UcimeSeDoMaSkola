@@ -1,0 +1,91 @@
+/*
+This style sheet is for ucimesedoma@maskola
+*/
+
+/* Tool bar */
+.usd_toolbar_icon{
+  cursor: pointer;
+  color: #2a6496;
+  }
+.usd_toolbar_icon:hover{
+  color: red;
+}
+div.usd_toolbar_icon{
+  display: inline;
+}
+.usd_panel_trida:hover{
+  color: red;
+}
+.Xusd_panel, .Xusd_panel_trida{
+color: #333;
+background-color: #f5f5f5;
+border: 1px solid;
+border-color: #ddd;
+margin-bottom: 0;
+overflow: hidden;
+border-radius: 4px;
+background-color: #f5f5f5;
+border-radius: 4px;
+box-sizing: border-box;
+} 
+
+.usd_panel, 
+.usd_panel_trida {
+  float: right;
+  margin-right: 15px;
+}
+/*
+Fix the trida panel header
+*/
+h4.panel-title > a{
+  display: block !important;
+  widht: 95% !important;
+  
+}
+
+
+.usd_hide{
+  display: none !important;
+}
+
+.usd_red{color: red;}
+.usd_blue{color: blue;}
+.usd_green{color: green;}
+.usd_yellow{color: yellow;}
+.usd_black{color: black;}
+.usd_white{color: white;}
+.usd_pink{color: pink;}
+.usd_darkred{color: #a94442;}
+.usd_darkblue{color: #2a6496;}
+
+
+.usd_bg_red{background-color: red;}
+.usd_bg_blue{background-color: blue;}
+.usd_bg_green{background-color: green;}
+.usd_bg_yellow{background-color: yellow;}
+.usd_bg_black{background-color: black;}
+.usd_bg_white{background-color: white;}
+.usd_bg_pink{background-color: pink !important;}
+.usd_bg_darkpink{background-color: #ebccd1 !important;}
+.usd_bg_lightgreen{background-color: #dff0d8;}
+.usd_bg_darkred{background-color: #a94442;}
+.usd_darkblue{background-color: #2a6496;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
