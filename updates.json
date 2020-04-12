@@ -30,6 +30,14 @@
             "gecko": { "strict_min_version": "48" }
           }
         }
+        ,
+        {
+          "version": "1.4.4",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4.4-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "48" }
+          }
+        }
       ]
     }
   }
