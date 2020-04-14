@@ -1,0 +1,296 @@
+
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+}
+
+h1, h2 {color:#DA0000;}
+/*MAIN WRAPPER DIV*/
+
+ #wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+/*MAIN PAGE DIV*/
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#F3F3F3;
+}
+/*THE CONTENT PORTION DIV*/
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1200px;
+}
+
+.rozvrhHodin {
+
+}
+
+.rozvrhHodin td, .rozvrhHodin th {
+    width: 10%;
+}
+
+.rozvrhHodin td {
+    
+}
+
+.okynkoCas {
+    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+    transition: all 1s;
+    color:black;
+}
+
+.okynkoCas:hover { 
+    color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.galleryIcon {
+	width:128px;
+	
+}
+.box-galerie {
+	padding:20px 0 20px 10px;	
+	text-align:center;
+}
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+#main-menu i.fa{
+    margin-right:15px!important;
+
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: #F3F3F3;
+}
+    .navbar a:hover{
+        color:#666666;
+    }
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+}
+.sidebar-collapse .nav {
+	padding:0;
+}
+.sidebar-collapse .nav > li > a {
+background: #FFFFFF;
+text-shadow: none;
+color:#000;
+}
+.sidebar-collapse > .nav > li > a {
+	padding: 10px 10px;
+    color:#DA0000;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid rgba(240, 240, 240, 1) !important;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	color:white;
+    background-color:#DA0000;
+	outline:0;
+}
+.nav-second-level  > li:last-child > a:after,
+.nav-third-level  > li:last-child > a:after {
+	height:50%;
+}
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before  {
+	left:40px;
+}
+.navbar-side {
+	border:none;
+	background-color: #f3f3f3;
+    margin-top: 30px;
+	
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+.menu-horni {}
+    .menu-horni { color:#DA0000;}
+    .menu-horni:hover { color:#666666;}
+
+/* paticka */
+#Footer {
+  width: 100%;
+  text-align: center;
+  background-color: #CCC;
+  padding: 20px 0 10px;
+  color: #444;
+}
+#Footer a {
+  color: #DA0000;
+}
+
+#FooterLogo {
+  display: none;
+}
+
+#FooterKontakty {
+}
+  #FooterKontakty .Version {
+    font-size: 11px;
+  }
+/* paticka - konec */
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 60px 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+     
+}
+     @media(max-width:767px) {
+   
+  
+    .navbar {
+ min-height: 0px!important; 
+ margin-bottom: 0px!important; 
+}
+    
+}
+
+.header {
+    font-weight: bold;
+    font-style: italic;
+}
+.novinka {
+    text-align: justify;
+    background-color: #E9E9E9;
+    padding: 5px;
+}
+
+.aktualita { 
+	margin-bottom:20px;
+}
+	.aktualita .akt-header{
+		font-weight: bold;
+	    font-style: italic;
+	}
+	.aktualita .akt-added{ float:right;}
+	.aktualita .velka-ikona { font-size:26px; float:left;}
+	.aktualita .akt-body{
+	    background-color: #E9E9E9;
+    	padding: 5px;
+	}
+
+.buttDelete, .buttEdit {
+	font-size:8px;
+}
+
+.buttSmallDelete {
+	font-size:8px;
+	padding:0;
+}
+
+.maleTlacitko {
+	font-size:10px;
+	margin:5px 5px 0 0;
+}
+
+.cal {
+	width:100%;
+}
+
+	.cal th, .cal td {
+		width:14%;
+	}
+	
+	.cal td {
+		height:100px;
+		vertical-align:top;
+		padding:2px;
+		transition:all 1s ease;
+	}
+
+	.cal .calDay, .cal .calDayOut {
+	 	border:1px #999999 solid;
+	}
+	
+	.cal .calDayOut {
+		background-color:#666; color:#FFF;
+	}
+	
+	.cal .calDay:hover {
+		background-color:#CCC;
+	}
+
+	.cal td .eventLine {
+	  display: block;
+	  width: 100%;
+	  height: 19px;
+	  line-height: 15px;
+	  overflow: hidden;
+	  padding:2px;
+	  margin:0 0 2px 0;
+	}
