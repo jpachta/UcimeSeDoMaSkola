@@ -1,0 +1,60 @@
+{
+  "addons": {
+    "{d2536e6f-d316-4b91-95fe-f2d906e22165}": {
+      "updates": [
+        {
+          "version": "1.4",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "48" }
+          }
+        },
+        {
+          "version": "1.4.1",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "48" }
+          }
+        },
+        {
+          "version": "1.4.2",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4.2-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "48" }
+          }
+        },
+        {
+          "version": "1.4.3",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4.3-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "48" }
+          }
+        }
+        ,
+        {
+          "version": "1.4.4",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4.4-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "52" }
+          }
+        }
+        ,
+        {
+          "version": "1.4.5",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-1.4.5-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "52" }
+          }
+        }
+        ,
+        {
+          "version": "2.0",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-2.0-fx.xpi",
+          "browser_specific_settings": {
+            "gecko": { "strict_min_version": "52" }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,8 +1,14 @@
 /*
-This style sheet is for ucimesedoma@maskola
+This style sheet is for ucimesedomaskola
 */
 
 /* Tool bar */
+#usd-panel-toolbar-icon{
+width: 30px;
+height: 30px;
+
+}
+
 .usd_toolbar_icon{
   cursor: pointer;
   color: #2a6496;
@@ -27,20 +33,18 @@ border-radius: 4px;
 background-color: #f5f5f5;
 border-radius: 4px;
 box-sizing: border-box;
-} 
+}
 
-.usd_panel, 
+.usd_panel,
 .usd_panel_trida {
   float: right;
   margin-right: 15px;
 }
-/*
-Fix the trida panel header
-*/
+
 h4.panel-title > a{
   display: block !important;
-  widht: 95% !important;
-  
+  widht: 90% !important;
+
 }
 
 
@@ -70,22 +74,3 @@ h4.panel-title > a{
 .usd_bg_lightgreen{background-color: #dff0d8;}
 .usd_bg_darkred{background-color: #a94442;}
 .usd_darkblue{background-color: #2a6496;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

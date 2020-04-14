@@ -1,0 +1,81 @@
+{
+  "authorName":{
+    "message": "Jindřich Pachta",
+    "description": "Name of the extension author."
+  },
+  "extensionName": {
+    "message": "Ucime Se Do MaSkola",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Tento addon přidá na stránku s domácími úkoly (http://www.maskola.cz/cz-informace-pro-tridy) možnost zvýraznit si oblíbené třídy a označování hotových domácích úkolů s jejich barevným zvýrazněním.\nAddon nemá žádné nastavení.\nAddon neodesílá žádná data o splněných úkolech ani učitelům, ani nikam jinam. Označené třídy/úkoly jsou uloženy v lokálním úložišti pro použití při dalaší návštěvě webové stránky.",
+    "description": "Description of the extension."
+  },
+
+  "notificationTitle": {
+    "message": "Click notification",
+    "description": "Title of the click notification."
+  },
+
+  "notificationContent": {
+    "message": "You clicked $URL$.",
+    "description": "Tells the user which link they clicked.",
+    "placeholders": {
+      "url" : {
+        "content" : "$1",
+        "example" : "https://developer.mozilla.org"
+      }
+    }
+  },
+
+  "storageAlert": {
+    "message": "Storage unavailable",
+    "description": "Upozornění: rozšíření nemá přístup k úložišti.\nVaše nastavení nebude uloženo."
+  },
+
+  "toolbarTitleMain": {
+    "message": "Učíme se doMaskola",
+    "description": "Učíme se doMaskola"
+  },
+  "toolbarTitleDone": {
+    "message": "Označit úkol jako hotový",
+    "description": "Mark task as done"
+  },
+  "toolbarTitleHide": {
+    "message": "Zavřít úkol",
+    "description": "Close the task"
+  },
+  "toolbarTitleBell": {
+    "message": "Zvýraznit důležitý úkol",
+    "description": "Bell the task"
+  },
+  "toolbarTitleDel": {
+    "message": "Trvale smazat úkol",
+    "description": "Remove the task permanently"
+  },
+  "toolbarTridaMain": {
+    "message": "Učíme se doma",
+    "description": "Learning at home"
+  },
+  "toolbarTridaStar": {
+    "message": "Oblíbená třída",
+    "description": "Bookmark the class"
+  },
+  "toolbarPageMain": {
+    "message": "UcimeSeDoMaSkola toolbar",
+    "description": "Main toolbar"
+  },
+  "toolbarPageHide": {
+    "message": "Skrýt všechny neoznačené třídy",
+    "description": "Hide all non-bookmarked classrooms"
+  },
+  "toolbarPageReset": {
+    "message": "Resetovat třídy a úkoly do výchozího nastavení (reset) UcimeSeDoMaSkola",
+    "description": "Reset toolbar"
+  },
+  "toolbarPageUndelete": {
+    "message": "Obnovit všechny trvale smazané úkoly",
+    "description": "Restore deleted tasks"
+  }
+}

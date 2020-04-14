@@ -1,0 +1,10 @@
+# Prevent users to commit their own .git
+.git
+
+# Temporary files
+*~
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+

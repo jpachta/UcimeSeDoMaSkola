@@ -1,0 +1,83 @@
+{
+  "authorName":{
+    "message": "Jindrich Pachta",
+    "description": "Name of the extension author."
+  },
+
+  "extensionName": {
+    "message": "UcimeSeDoMaSkola",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Add features of tracking of homework progress shared with students on maskola.cz.",
+    "description": "Description of the extension."
+  },
+
+  "notificationTitle": {
+    "message": "Click notification",
+    "description": "Title of the click notification."
+  },
+
+  "notificationContent": {
+    "message": "You clicked $URL$.",
+    "description": "Tells the user which link they clicked.",
+    "placeholders": {
+      "url" : {
+        "content" : "$1",
+        "example" : "https://developer.mozilla.org"
+      }
+    }
+  },
+
+  "storageAlert": {
+    "message": "Storage unavailable",
+    "description": "Upozornění: rozšíření nemá přístup k úložišti.\nVaše nastavení nebude uloženo."
+  },
+
+  "toolbarTitleMain": {
+    "message": "Učíme se doMaskola",
+    "description": "Učíme se doMaskola"
+  },
+  "toolbarTitleDone": {
+    "message": "Mark task as done",
+    "description": "Mark task as done"
+  },
+  "toolbarTitleHide": {
+    "message": "Close the task",
+    "description": "Close the task"
+  },
+  "toolbarTitleBell": {
+    "message": "Bell the task",
+    "description": "Bell the task"
+  },
+  "toolbarTitleDel": {
+    "message": "Remove the task permanently",
+    "description": "Remove the task permanently"
+  },
+  "toolbarTridaMain": {
+    "message": "Learning at home",
+    "description": "Learning at home"
+  },
+  "toolbarTridaStar": {
+    "message": "Bookmark the classroom",
+    "description": "Bookmark the classroom"
+  },
+  "toolbarPageMain": {
+    "message": "UcimeSeDoMaSkola toolbar",
+    "description": "Main toolbar"
+  },
+  "toolbarPageHide": {
+    "message": "Hide all non-bookmarked classrooms",
+    "description": "Hide all non-bookmarked classrooms"
+  },
+  "toolbarPageReset": {
+    "message": "Reset all custom settings of UcimeSeDoMaSkola",
+    "description": "Reset toolbar"
+  },
+  "toolbarPageUndelete": {
+    "message": "Restore all permanently removed tasks",
+    "description": "Restore deleted tasks"
+  }
+
+}
