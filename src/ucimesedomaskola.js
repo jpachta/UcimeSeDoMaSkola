@@ -6,6 +6,7 @@
  * - toggle color of the selected heades and bodies of accordeon
  * - keep the settigns in locale storage
  * @author Jindrich Pachta
+ * @version 2.1 2020-04-14 reorganized structure of github repository.
  * @version 2.0 2020-04-14 fixed typo in cs translation; changed icons of done and pinned tasks; renamed pin to bell
  * @version 1.4.5 2020-04-12 Update test
  * @version 1.4.4 2020-04-12 Disabled browserAction both in manifest and updates; altered browser_specific_settings with id and strict_min_version

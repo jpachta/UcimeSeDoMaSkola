@@ -49,7 +49,7 @@
         ,
         {
           "version": "2.0",
-          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-2.0-fx.xpi",
+          "update_link": "https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/bin/2.x/ucimesedomaskola-2.0-fx.xpi",
           "browser_specific_settings": {
             "gecko": { "strict_min_version": "52" }
           }
