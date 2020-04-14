@@ -1,0 +1,45 @@
+{
+  "author": "__MSG_authorName__",
+
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "css": [
+        "styles/ucimesedomaskola.css"
+      ],
+     "js": [
+        "scripts/images.js",
+        "scripts/sample_tridy.js",
+        "scripts/jquery-1.10.2.js",
+        "scripts/bootstrap-3.1.0.js",
+        "ucimesedomaskola.js"
+      ],
+      "matches": [
+        "*://*.maskola.cz/cz-informace-pro-tridy"
+        ,"file:///*/cz-informace-pro-tridy.html"
+      ]
+    }
+  ],
+
+  "default_locale": "cs",
+
+  "description": "__MSG_extensionDescription__",
+
+  "homepage_url": "https://github.com/jpachta/UcimeSeDoMaSkola/",
+
+  "icons": {
+    "128": "icons/ucimesedomaskola-128.png"
+  },
+
+  "manifest_version": 2,
+
+  "name": "__MSG_extensionName__",
+
+  "permissions": ["storage"],
+
+  "version": "2.2"
+
+}
