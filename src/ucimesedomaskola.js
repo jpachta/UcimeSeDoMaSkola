@@ -6,6 +6,7 @@
  * - toggle color of the selected heades and bodies of accordeon
  * - keep the settigns in locale storage
  * @author Jindrich Pachta
+ * @version 2.2 2020-04-14 added support for Chrome; own manifest.json and chrome object and shortened description
  * @version 2.1 2020-04-14 reorganized structure of github repository.
  * @version 2.0 2020-04-14 fixed typo in cs translation; changed icons of done and pinned tasks; renamed pin to bell
  * @version 1.4.5 2020-04-12 Update test
@@ -60,7 +61,12 @@ $(document).ready(function() {
   }
 
   function translate(message){
-    return browser.i18n.getMessage(message);
+    if(typeof chrome === "object"){
+      return chrome.i18n.getMessage(message);
+    }
+    if(typeof browser === "object"){
+      return browser.i18n.getMessage(message);
+    }
   }
 
 

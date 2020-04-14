@@ -9,7 +9,7 @@
   },
 
   "extensionDescription": {
-    "message": "Tento addon přidá na stránku s domácími úkoly (http://www.maskola.cz/cz-informace-pro-tridy) možnost zvýraznit si oblíbené třídy a označování hotových domácích úkolů s jejich barevným zvýrazněním.\nAddon nemá žádné nastavení.\nAddon neodesílá žádná data o splněných úkolech ani učitelům, ani nikam jinam. Označené třídy/úkoly jsou uloženy v lokálním úložišti pro použití při dalaší návštěvě webové stránky.",
+    "message": "Addon umožní zvýraznit si oblíbené třídy a označit hotové domácí úkoly na stránkách školy maskola.cz",
     "description": "Description of the extension."
   },
 

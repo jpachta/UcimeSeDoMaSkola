@@ -8,3 +8,5 @@
 *.xlk
 ~$*.ppt*
 
+# Source code for Chrome
+/tmp/chrome/*
