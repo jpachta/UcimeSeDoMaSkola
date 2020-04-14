@@ -5,4 +5,4 @@ CS: Rozšíření přidá na stránku maskola.cz sadu ikon pro zvýraznění a t
 
 ## Instalace
 ### Firefox
-Instalaci spustíte kliknutím na [UcimeSeDoMaSkola](https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/build/ucimesedomaskola-2.0-fx.xpi)
+Instalaci spustíte kliknutím na [UcimeSeDoMaSkola](https://github.com/jpachta/UcimeSeDoMaSkola/raw/master/bin/2.x/ucimesedomaskola-2.0-fx.xpi)
