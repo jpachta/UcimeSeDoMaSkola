@@ -41,7 +41,8 @@ box-sizing: border-box;
   margin-right: 15px;
 }
 
-h4.panel-title > a{
+h4.panel-title > a,
+h3.panel-title > a{
   display: block !important;
   widht: 90% !important;
 
