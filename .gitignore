@@ -10,3 +10,6 @@
 
 # Source code for Chrome
 /tmp/chrome/*
+
+# Generated .zip files in /tmp
+/tmp/*.zip

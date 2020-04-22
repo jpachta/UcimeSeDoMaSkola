@@ -6,6 +6,7 @@
  * - toggle color of the selected heades and bodies of accordeon
  * - keep the settigns in locale storage
  * @author Jindrich Pachta
+ * @version 2.3 2020-04-22 added collapsing feature for Ukol header
  * @version 2.2 2020-04-14 added support for Chrome; own manifest.json and chrome object and shortened description
  * @version 2.1 2020-04-14 reorganized structure of github repository.
  * @version 2.0 2020-04-14 fixed typo in cs translation; changed icons of done and pinned tasks; renamed pin to bell
@@ -280,7 +281,11 @@ $(document).ready(function() {
   }
 
 
-  // Find all Ukoly
+    /**
+   * Finds all Ukoly and update ukoly_list
+   * @returns void
+   * @see ukoly_list
+   */
   function findUkoly(){
     $(".panel-body [id^=novTitle").each(
         function(i, ukol){
@@ -428,6 +433,16 @@ $(document).ready(function() {
     if(DEBUG)  console.log('updateUkoly start');
     for(var ukol_id in ukoly){
       var panel_ukol = buildPanelsUkol(toolbar_ukol, panels_ukol, ukol_id);
+      var ukol_nadpis = $('#novTitle_'+ ukol_id).html();
+      ukol_nadpis = '<a href="" id="usd_ukol_header_'+ ukol_id +'" class="usd-panel-nadpis3">'+ ukol_nadpis +'</a>';
+      $('#novTitle_'+ ukol_id).html(ukol_nadpis);
+      $('#usd_ukol_header_'+ ukol_id).attr('data-usd-id', ukol_id);
+      $('#usd_ukol_header_'+ ukol_id).attr('data-usd-exe', 'toggle');
+      $('#usd_ukol_header_'+ ukol_id + '').on("click", function(){
+        if(DEBUG) ; console.log($(this).attr('data-usd-id')+' '+$(this).attr('data-usd-exe')+' '+$(this).attr('id'));
+        toggleUkol($(this).attr('data-usd-id'), $(this).attr('data-usd-exe'), $(this).attr('id'));
+        return false;
+      });
       $('#novTitle_'+ ukol_id).prepend(panel_ukol);
       $('#usd_done_' + ukol_id).on( "click", function() {
         if(DEBUG)  console.log($(this).attr('data-usd-id')+' '+$(this).attr('data-usd-exe')+' '+$(this).attr('id'));
@@ -488,6 +503,10 @@ $(document).ready(function() {
       else{
         updateUkolyAction([uid], kind, 'add');
       }
+      break;
+    case 'toggle':
+      $('#novContent_'+ uid).slideToggle();
+      $('#novContent_'+ uid).next().slideToggle();
       break;
     }
     if(DEBUG)  console.log('toggleUkol done.');
