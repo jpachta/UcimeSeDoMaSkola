@@ -46,6 +46,10 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
     * Remote Branches
     * [x] x.x -> origin/x.x [A]
     * [Finish]
+  * Set Up Remote Tracking?
+    * Branch "origin/x.x" created locally.\\
+    * Do you want to set up branch "x.x" to track the remote branch?
+    * [Yes]
 
 
 ## Publish your new add-on
