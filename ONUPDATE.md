@@ -2,6 +2,7 @@
 
 Here is brief guide what steps to be done on Add-on update.
 
+
 ## Increase a version by one
 * /updates.json
 * /src/manifest.json
@@ -9,6 +10,7 @@ Here is brief guide what steps to be done on Add-on update.
 * /src/ucimesedomaskola.js
 * /bin/x.x
 * /bin/x.x/ucimesedomaskola-x.x-fx.xpi
+
 
 ## Create new Branch for new version
 * Git > Branch/Tag > New Branch
@@ -18,11 +20,14 @@ Here is brief guide what steps to be done on Add-on update.
     * [Create]
     * [x] Checkout Created Branch
 
+
 ## Test functionality in web browsers
 UcimeSeDoMaSkola/tmp/buildaddon.sh -a update
 
+
 ## Build new package
 UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
+
 
 ## Commit and Push your code
 ### Commit
@@ -32,6 +37,7 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
   * Commiter: make sure of correct commiter is listed
   * Files to commit: exclude those files not part of current commit
   * [Commit]
+
 
 ### Push
 * Git > Remote > Push...
@@ -51,6 +57,17 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
     * Do you want to set up branch "x.x" to track the remote branch?
     * [Yes]
 
+
+## Publish your new add-on
+* FireFox https://addons.mozilla.org/en-US/developers/addons
+* Chrome: https://chrome.google.com/webstore/devconsole/
+
+
+## Manual update for Firefox
+* Wait for the review and then download new *-fx.xpi file from Manage Status & Versions > Version x.x
+* Commit and Push the /bin/x.x/*-fx.xpi
+
+
 ## Compare and pull request
 * On github.com
   * [Compare & pull request]
@@ -60,16 +77,6 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
       * Comment: x.x describe what have been done on this change
       * [Create pull request]
   * To be continue...
-
-
-
-## Publish your new add-on
-* FireFox https://addons.mozilla.org/en-US/developers/addons
-* Chrome: https://chrome.google.com/webstore/devconsole/
-
-## Manual update for Firefox
-* Wait for the review and then download new *-fx.xpi file from Manage Status & Versions > Version x.x
-* Commit and Push the /bin/x.x/*-fx.xpi
 
 ## Merge Branch with master Branch
 To be updated
