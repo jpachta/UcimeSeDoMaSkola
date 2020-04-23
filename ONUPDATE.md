@@ -39,7 +39,7 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
     * [x] Select Configured Git Repository Location: origin:https://xxxxx@github.com/jpachta/hello-world.git
     * [Next]
   * Select local Branches
-    * [x] x.x
+    * [x] x.x [A]
     * [Next]
   * Update Local References
     * [Finish]
