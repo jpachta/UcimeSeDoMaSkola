@@ -38,10 +38,13 @@ UcimeSeDoMaSkola/tmp/buildaddon.sh -a build -v x.x
   * Remote Repository
     * [x] Select Configured Git Repository Location: origin:https://xxxxx@github.com/jpachta/hello-world.git
     * [Next]
+    * [Next]
   * Select local Branches
-    * [x] x.x [A]
+    * [x] x.x -> x.x [A]
     * [Next]
   * Update Local References
+    * Remote Branches
+    * [x] x.x -> origin/x.x [A]
     * [Finish]
 
 
