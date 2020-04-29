@@ -77,5 +77,21 @@
   "toolbarPageUndelete": {
     "message": "Obnovit všechny trvale smazané úkoly",
     "description": "Restore deleted tasks"
+  },
+  "popupMaskola": {
+    "message": "Maskola.cz",
+    "description": "Open school homepage"
+  },
+  "popupTridniInformace": {
+    "message": "Informace pro třídy",
+    "description": "Open school homework page"
+  },
+  "popupAddonHomePage": {
+    "message": "UcimeSeDoMaSkola",
+    "description": "Open Add-on home page"
+  },
+  "popupAddonSettings": {
+    "message": "Nastavení",
+    "description": "Addon settings"
   }
 }
