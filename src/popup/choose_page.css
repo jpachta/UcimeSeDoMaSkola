@@ -1,0 +1,26 @@
+/* https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar */
+
+
+html, body {
+  width: 150px;
+}
+
+.page-choice,
+.page-choice-inactive {
+  width: 100%;
+  padding: 4px;
+  font-size: 1em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.page-choice-inactive {
+  cursor: default;
+  background-color: silver;
+  color: grey;
+}
+
+.page-choice:hover {
+  background-color: #5aacd0;
+  color: #ffffff;
+}

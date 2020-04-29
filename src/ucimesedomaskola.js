@@ -6,6 +6,7 @@
  * - toggle color of the selected heades and bodies of accordeon
  * - keep the settigns in locale storage
  * @author Jindrich Pachta
+ * @version 2.4 2020-04-22 added popup menu
  * @version 2.3 2020-04-22 added collapsing feature for Ukol header
  * @version 2.2 2020-04-14 added support for Chrome; own manifest.json and chrome object and shortened description
  * @version 2.1 2020-04-14 reorganized structure of github repository.
@@ -22,11 +23,11 @@
  * @done Create toolbar to done,pin,delete/hide pannel next to calendar date
  * @done Get rid of checkboxes - use favicons: trash, star, star-o, eye-slash, bookmark
  * @done Add toolbar above accordion with [] Skryt tridy bez hvezdicky, [] zobrazit vsechny ukoly
+ * @done Update procedure!
+ * @done noway Add new Bootstrap css, and use gray mode for done tasks
+ * @done obnovit tlacitko na taskbar
  *
- * @todo Update procedure!
  * @todo Create a config page to set remove non favorits tridy, undelete tasks, empty storage, link to help, etc.
- * @todo Add new Bootstrap css, and use gray mode for done tasks
- * @todo obnovit tlacitko na taskbar
  *
  * @see Browser Extensions: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
  * @see Updating your extension: https://extensionworkshop.com/documentation/manage/updating-your-extension/
